@@ -15,15 +15,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
   <body class="page">
     <!--Шапка сайта-->
     <header class="page-header">
-      <div class="container navigation">
+      <div class="container container__nav">
         <nav class="main-nav">
-          <a href="./index.html" lang="en" class="page-header__logo"
-            ><span class="page-header__accent">Web</span>Studio</a
+          <a href="./index.html" lang="en" class="logo page-header__logo"
+            ><span class="logo__accent">Web</span>Studio</a
           >
           <ul class="site-nav">
             <li class="site-nav__item">
@@ -144,12 +144,12 @@
         </div>
       </section>
       <!--Секция наши преимущества-->
-      <section class="section no-bottom-padding section-features">
+      <section class="section section-features">
         <div class="container">
           <h2 class="section-features__title">Наши преимущества</h2>
           <ul class="features">
             <li class="features__item icon-dish">
-              <h3 class="features_title">Внимание к деталям</h3>
+              <h3 class="features__title">Внимание к деталям</h3>
               <p class="features__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
@@ -218,7 +218,7 @@
         </div>
       </section>
       <!--Секция наша команда-->
-      <section class="section-team">
+      <section class="section section__team">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team-card">
@@ -453,8 +453,8 @@
       <div class="container">
         <div class="footer__info">
           <div class="footer__contacts">
-            <a href="./index.html" lang="en" class="footer__logo"
-              ><span class="footer__accent">Web</span>Studio</a
+            <a href="./index.html" lang="en" class="logo footer__logo"
+              ><span class="logo__accent">Web</span>Studio</a
             >
             <address class="footer-adress">
               <span class="footer-adress__postal">г. Киев, пр-т Леси Украинки, 26</span>
@@ -465,32 +465,32 @@
             </address>
           </div>
           <div class="footer-media">
-            <b class="footer-media__join">Присоединяйтесь</b>
-            <ul class="footer-social">
-              <li class="footer-social__item">
-                <a class="footer-social__link" href="">
-                  <svg class="footer-social__icon">
+            <b class="footer-media__title">Присоединяйтесь</b>
+            <ul class="social footer-social">
+              <li class="social__item footer-social__item">
+                <a class="social__link footer-social__link" href="">
+                  <svg class="social__icon footer-social__icon">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link" href="">
-                  <svg class="footer-social__icon">
+              <li class="social__item footer-social__item">
+                <a class="social__link footer-social__link" href="">
+                  <svg class="social__icon footer-social__icon">
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link" href="">
-                  <svg class="footer-social__icon">
+              <li class="social__item footer-social__item">
+                <a class="social__link footer-social__link" href="">
+                  <svg class="social__icon footer-social__icon">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social__item">
-                <a class="footer-social__linkedin" href="">
-                  <svg class="footer-social__icon">
+              <li class="social__item footer-social__item">
+                <a class="social__link footer-social__link footer-social__link--append" href="">
+                  <svg class="social__icon footer-social__icon">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -529,7 +529,7 @@
               console.log(`${name}: ${value}`),
             );
 
-            e.currentTarget.reset();
+            e.currentTarget.reset(); 
           });
       })();
     </script>
