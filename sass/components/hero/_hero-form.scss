@@ -141,7 +141,7 @@
 
     &:checked + .agreement__icon {
         background-color: $accentColor;
-        background-image: url('/images/full-check.svg');
+        background-image: url('../images/full-check.svg');
         background-size: contain;
         background-origin: border-box;
         border-color: $accentColor;

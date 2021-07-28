@@ -547,7 +547,7 @@ ul {
 
 .agreement__input:checked + .agreement__icon {
   background-color: #2196f3;
-  background-image: url("/images/full-check.svg");
+  background-image: url("../images/full-check.svg");
   background-size: contain;
   background-origin: border-box;
   border-color: #2196f3;
