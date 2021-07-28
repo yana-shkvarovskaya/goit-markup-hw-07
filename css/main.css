@@ -249,8 +249,8 @@ ul {
 
 .hero {
   background-color: #c4c4c4;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/background.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/background.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -630,7 +630,7 @@ ul {
   content: '';
   height: 120px;
   width: 270px;
-  background-image: url(/images/antenna.svg);
+  background-image: url(../images/antenna.svg);
   background-size: 70px 70px;
   background-repeat: no-repeat;
   background-position: center;
@@ -642,15 +642,15 @@ ul {
 }
 
 .features__item--icon-clock::before {
-  background-image: url(/images/clock.svg);
+  background-image: url(../images/clock.svg);
 }
 
 .features__item--icon-diagram::before {
-  background-image: url(/images/diagram.svg);
+  background-image: url(../images/diagram.svg);
 }
 
 .features__item-astronaut::before {
-  background-image: url(/images/astronaut.svg);
+  background-image: url(../images/astronaut.svg);
 }
 
 .work {
